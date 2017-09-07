@@ -23,6 +23,6 @@ public class module2dz {
 
         System.out.println("-----------------");
         System.out.println("Человек по имени " + name + " живет в городе " + city + ".\n" + "Этому человеку " + age + " лет и он любит заниматься " + hobby + ".");
-          
+        System.out.println("-----------------\n" + name + " - имя\n" + city + " - город\n" + age + " - возраст\n" + hobby + " - хобби \n-----------------");
     }
 }
