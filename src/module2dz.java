@@ -6,7 +6,10 @@ public class module2dz {
         Scanner in = new Scanner(System.in);
         System.out.println("What is your name?");
         String name = in.nextLine();
-        System.out.println("Name:" + name);
+        System.out.println("What city do you live in?");
+        String city = in.nextLine();
+        System.out.println("Name: " + name);
+        System.out.println("City: " + city);
 
     }
 }
