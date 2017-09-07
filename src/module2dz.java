@@ -8,11 +8,18 @@ public class module2dz {
         String name = in.nextLine();
         System.out.println("What city do you live in?");
         String city = in.nextLine();
+
         System.out.println("How old are you?");
         int age = in.nextInt();
+
+        System.out.println("What is your hobby?");
+        String hob = in.nextLine();                     //дополнительная строка, так как после .in.nextInt первую строку ввода пропускает
+        String hobby = in.nextLine();
+        System.out.println("-----------------");
         System.out.println("Name: " + name);
         System.out.println("City: " + city);
         System.out.println("Age: " + age);
-
+        System.out.println("Hobby: " + hobby);
+        
     }
 }
