@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+
 public class module2dz {
     public static void main(String[] args) {
 
@@ -11,9 +12,9 @@ public class module2dz {
 
         System.out.println("How old are you?");
         int age = in.nextInt();
-
+        in.nextLine();
         System.out.println("What is your hobby?");
-        String hob = in.nextLine();                     //дополнительная строка, так как после .in.nextInt первую строку ввода пропускает
+
         String hobby = in.nextLine();
         System.out.println("-----------------");
         System.out.println("Name: " + name);
