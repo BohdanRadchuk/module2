@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 
-public class module2dz {
+public class moduleTwoHomeWork {
     public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);
